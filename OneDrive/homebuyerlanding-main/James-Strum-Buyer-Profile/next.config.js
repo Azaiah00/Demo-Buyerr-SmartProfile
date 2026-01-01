@@ -4,6 +4,8 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
+  // Silence Turbopack warning
+  turbopack: {},
 }
 
 module.exports = nextConfig
