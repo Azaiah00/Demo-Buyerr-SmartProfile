@@ -1,7 +1,4 @@
-# Serve static assets first
-/_next/*  /_next/:splat  200
-/images/* /images/:splat 200
-
-# Then redirect everything else to index.html
+# Netlify automatically serves files that exist (_next/*, images/*, etc.)
+# Only redirect paths that don't match actual files to index.html for SPA routing
 /*  /index.html  200
 
