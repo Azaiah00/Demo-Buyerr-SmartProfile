@@ -2,6 +2,12 @@
   command = "npm run build"
   publish = "out"
 
+# Redirect all routes to index.html for client-side routing
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+
 # Note: No Next.js plugin needed for static export
 # Static export generates proper HTML files that Netlify can serve directly
 
