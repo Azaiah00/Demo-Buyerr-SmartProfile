@@ -2,13 +2,12 @@
   command = "npm run build"
   publish = "out"
 
-# Don't redirect _next static assets - let them be served normally
-[[redirects]]
-  from = "/_next/*"
-  to = "/_next/:splat"
-  status = 200
+# IMPORTANT: Order matters! More specific rules come first
+# Serve _next static assets normally (no redirect needed - files exist)
+# Netlify automatically serves existing files, so we just need to handle non-file routes
 
-# Redirect all other routes to index.html for client-side routing
+# Redirect all non-file routes to index.html for SPA routing
+# Netlify will serve existing files (_next/*, images/*) automatically
 [[redirects]]
   from = "/*"
   to = "/index.html"
