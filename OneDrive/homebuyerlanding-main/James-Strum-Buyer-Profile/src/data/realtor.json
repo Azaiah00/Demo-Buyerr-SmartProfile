@@ -1,0 +1,42 @@
+{
+  "realtor": {
+    "fullName": "James Strum",
+    "title": "President-Team Leader-REALTOR®",
+    "team": "The Strum Group",
+    "brokerage": "Long & Foster Real Estate",
+    "phone": "(804) 432-3408",
+    "email": "james@thestrumgroup.com",
+    "license": "0225175558",
+    "officeAddress": "5706 Grove Avenue, Richmond, VA 23226",
+    "serviceAreas": [
+      "Richmond",
+      "Ashland",
+      "Bon Air",
+      "Chester",
+      "Chesterfield",
+      "Church Hill",
+      "Glen Allen",
+      "Hanover",
+      "Henrico",
+      "Mechanicsville"
+    ],
+    "proof": [
+      "No. 1 Best Real Estate Agent (Richmond Times-Dispatch, 2024)",
+      "No. 1 Best Real Estate Team (Richmond Times-Dispatch, 2024)"
+    ],
+    "bioBullets": [
+      "Richmond local with a real estate family background.",
+      "James Madison University graduate with a Social Work degree.",
+      "Known for strong client relationships and clear guidance."
+    ],
+    "assets": {
+      "headshotUrl": "https://newsroom.longandfoster.com/wp-content/uploads/2024/09/James-Strum.jpg",
+      "logoUrl": "https://images.squarespace-cdn.com/content/v1/66dfd4e632662314216debb8/1f8d7c80-c3be-47bc-9431-1df71c63cae9/Broker.png",
+      "awardBadgeUrl": "https://images.squarespace-cdn.com/content/v1/66dfd4e632662314216debb8/a9da5ca1-5ca2-4330-bc6d-020cf76d6e47/infologo.png?format=750w"
+    },
+    "links": {
+      "profileSource": "https://www.thestrumgroup.com/team/james-strum"
+    }
+  }
+}
+

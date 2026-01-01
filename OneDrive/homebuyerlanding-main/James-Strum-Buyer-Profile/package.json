@@ -1,0 +1,32 @@
+{
+  "name": "homebuyer-consultation",
+  "version": "1.0.0",
+  "description": "A modern web application for managing buyer consultations",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "keywords": [
+    "homebuyer",
+    "consultation",
+    "real-estate"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "jspdf": "^3.0.4",
+    "lucide-react": "^0.554.0",
+    "next": "^16.0.7",
+    "react": "^19.2.1",
+    "react-dom": "^19.2.1"
+  },
+  "devDependencies": {
+    "@netlify/plugin-nextjs": "^5.15.1",
+    "@types/react": "^18.2.0",
+    "@types/react-dom": "^18.2.0",
+    "netlify-cli": "^23.11.0"
+  }
+}
