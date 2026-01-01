@@ -1,2 +1,7 @@
-/*    /index.html   200
+# Serve static assets first
+/_next/*  /_next/:splat  200
+/images/* /images/:splat 200
+
+# Then redirect everything else to index.html
+/*  /index.html  200
 
