@@ -2,8 +2,8 @@
   command = "npm run build"
   publish = "out"
 
-[[plugins]]
-  package = "@netlify/plugin-nextjs"
+# Note: No Next.js plugin needed for static export
+# Static export generates proper HTML files that Netlify can serve directly
 
 # Brevo API Key Configuration:
 # 1. Go to Netlify Dashboard → Site Settings → Environment Variables
